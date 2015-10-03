@@ -2,8 +2,8 @@
 if(isset($_POST['add']))
 {
 $dbhost = 'localhost';
-$dbuser = 'jrmathem';
-$dbpass = 'taekwondo';
+$dbuser = 'usergoeshere';
+$dbpass = 'passgoeshere';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {
