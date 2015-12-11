@@ -1,6 +1,6 @@
 <?php
 $username = "jrmathem";
-$password = "taekwondo";
+$password = "nope";
 $randomword = "selfaboveservice";
 
 if (isset($_COOKIE['MyLoginPage'])) {
@@ -10,7 +10,7 @@ if (isset($_COOKIE['MyLoginPage'])) {
 <?php
 $dbhost = 'localhost';
 $dbuser = 'jrmathem';
-$dbpass = 'taekwondo';
+$dbpass = 'nope';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');
 
 $dbname = 'jrmathem_service';
